@@ -1,0 +1,6 @@
+#cualquier cosa que esté en el archivo de texto .gitignore va a ser ignorado por git, no se va a subir yno va a tener control de versiones
+#aqui se suelen guardar los resultados del pipeline, archivos pesados que usa el pipline etc. 
+#no se pueden subir archivos pesados github, da error
+#el punto antes de gitignore hace que el fichero no lo puedas ver desde bash, lo puedes ver en visual studio
+!.gitignore
+data/
